@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ========================= MEDISEEN WEBSITE ======================= -->
+<!-- ======================== CREATED BY SilentDev ========================= -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta author="Lawson Ezekiel Michael" content="MEDISEEN">
+    <!-- <=====Responsive meta tag=====> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <=====Bootstrap css =====> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- =====CSS ANIMATION=====> -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- =====MY ICON LINK===== -->
+    <link rel="icon" href="img/favicon.png">
+    <!-- <===== Fonts Link =====> -->
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <!-- <=====Bootstrap CSS =====>  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <=====  Main CSS =====> -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <=====googleapis fonts =====> -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+    <!-- <===== Title of my website=====> -->
+    <title>MEDISEEN</title>
+</head>
+
+<body>
+    <!-- ========== BEGINING OF NAVBAR ========== -->
+    <div id="nav">
+        <nav class="navbar navbar-expand-lg  fixed-top" aria-label="breadcrumb" role="navigation">
+            <a class="navbar-brand ml-4 " href="#"><img src="img/logo.png" class="img-fluid" alt="Responsive image"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto pt-2">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Drugs</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown- pb-2" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Effects<span class=" icon-chevron-down"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Problems</a>
+                            <a class="dropdown-item" href="#">Challenges</a>
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown- pb-2" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cases<span class=" icon-chevron-down"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Usage</a>
+                            <a class="dropdown-item" href="#">Dosage</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-Primary btn-sm " href="#" data-toggle="modal"
+                            data-target="#exampleModal" class="text-white">
+                            Log In <span class="icon-login"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- <==========END OF NAVBAR==========> -->
+    <!-- modals -->
+    <!-- log in -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center">LOG IN</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="POST">
+                        <div class="form-group">
+                            <label class="col-form-label">Username</label>
+                            <input type="text" class="form-control" placeholder=" " name="Name" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Password</label>
+                            <input type="password" class="form-control" placeholder=" " name="Password" required="">
+                        </div>
+                        <div class="right-w3l">
+                            <input type="submit" class="form-control" value="Log in">
+                        </div>
+                        <div class="sub-w3l">
+                            <div class="custom-control custom-checkbox mr-sm-2">
+                                <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                                <label class="custom-control-label" for="customControlAutosizing">Remember me?</label>
+                            </div>
+                        </div>
+                        <p class="text-center dont-have mt-3">Don't have an account?
+                            <!-- < data-toggle="modal" data-target="#exampleModal2"> -->
+                                Register Now</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- register -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="POST">
+                        <div class="form-group">
+                            <label class="col-form-label">Your Name</label>
+                            <input type="text" class="form-control" placeholder=" " name="Name" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Email</label>
+                            <input type="email" class="form-control" placeholder=" " name="Email" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Password</label>
+                            <input type="password" class="form-control" placeholder=" " name="Password" id="password1"
+                                required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Confirm Password</label>
+                            <input type="password" class="form-control" placeholder=" " name="Confirm Password"
+                                id="password2" required="">
+                        </div>
+                        <div class="right-w3l">
+                            <input type="submit" class="form-control" value="Register">
+                        </div>
+                        <div class="sub-w3l">
+                            <div class="custom-control custom-checkbox mr-sm-2">
+                                <input type="checkbox" class="custom-control-input" id="customControlAutosizing2">
+                                <label class="custom-control-label" for="customControlAutosizing2">I Accept to the Terms
+                                    &amp; Conditions</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <===== MODAL =====> -->
+    <!-- <===== TOP HEADER=====> -->
+    <!-- =====BEGINING OF SECTION===== -->
+    <div class="banner-bg">
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="Here pt-4">We Are Here For Your Care</h5>
+                        <h1>
+                            Best Care & Better Doctor</h1>
+                        <p class="scrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.Risus
+                            cmodo viverra compun let confo be gop sep me atte let pee come to go bof sit amet,
+                            consectetur adipiscing elit sed
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg blut">MAKE AN APPOINTMENT</button>
+
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <img src="img/banner_img.png" class="img-fluid" alt="Responsive image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="bg">
+                        <img src="img/top_service.png" class="img-fluid" alt="Responsive image">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h1>
+                        About Us</h1>
+                    <p class="scrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua Quis ipsum suspendisse ultrices gravida. Risus
+                        cmodo viverra maecenas accumsan lacus vel
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm blutt">Learn More</button>
+                    <div class="icons mt-5">
+                        <figure class="figure">
+                            <img src="img/icon/banner_1.svg" class="figure-img img-fluid "
+                                alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">Emergency</figcaption>
+                        </figure>
+
+                        <figure class="figure">
+                            <img src="img/icon/banner_2.svg" class="figure-img img-fluid "
+                                alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">Appointment</figcaption>
+                        </figure>
+
+                        <figure class="figure">
+                            <img src="img/icon/banner_3.svg" class="figure-img img-fluid rounded"
+                                alt="A generic square placeholder image with rounded corners in a figure.">
+                            <figcaption class="figure-caption text-center">Qualified</figcaption>
+                        </figure>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2 mt-5">
+        <div class="container">
+            <h1 class="text-center service">Our Services</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <p class="mb-5 perfect"> 
+                        Darkness multiply rule Which from without life creature blessed give moveth moveth seas make day which divided our have.
+                    </p>
+                    <div class="mt-5 perfect">
+                        Darkness multiply rule Which from without life creature blessed give moveth moveth seas make day which divided our have.
+                    </div>
+                </div>
+                <div class="col-md-6 avatar">
+                    <img src="img/service.png" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-md-3">
+                    <p class="mb-5 perfect">Darkness multiply rule Which from without life creature blessed give moveth moveth seas make day which divided our have.</p>
+                    <div class="mt-5 perfect">
+                            Darkness multiply rule Which from without life creature blessed give moveth moveth seas make day which divided our have.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3 mt-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-7 mt-5">
+                    <h3>Make An Appointment</h3>
+                    <div class="container">
+                        <div class="row">
+                            <form >
+                                <div class="form-row ">
+                                    <div class="form-group col-md-6">
+                                        <!-- <label for="inputEmail4">Name</label> -->
+                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <!-- <label for="inputPassword4">Email Address</label> -->
+                                        <input type="password" class="form-control" id="inputPassword4"
+                                            placeholder="Email">
+                                    </div>
+
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Select Service</option>
+                                            <option>Name of service</option>
+                                            <option>Name of service</option>
+                                            <option>Name of service</option>
+                                            <option>Name of service</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option value="" selected="">Time</option>
+                                            <option value="1">12PM TO 2PM</option>
+                                            <option value="1">10 AM TO 12PM</option>
+                                            <option value="1">2PM TO 4PM</option>
+                                            <option value="1">4PM TO 6PM</option>
+                                            <option value="1">6PM TO 8PM</option>
+                                            <option value="1">8 AM TO 10AM</option>
+                                            <option value="1">4PM TO 10PM</option>
+                                            <option value="1">10PM TO 12PM</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div> 
+                                <button type="button" class="btn btn-primary btn-lg blut">MAKE AN APPOINTMENT</button>
+                            </form>
+                           
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="col-md-5">
+                    <img src="img/reservation.png" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+
+
+    <!-- ================ start footer Area ================= -->
+    <footer class="footer-area mt-5 h-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/logo.png" class="img-fluid" alt="Responsive image">
+                    <p>Welcome to Mediseen. Our Drugs are freshly produced , with a regitered Nafdac number
+                        we give quality drugs.</p>
+                    <div class="class">
+                        <span class="icon-twitter ml-2"></span>
+                        <span class="icon-facebook ml-3"></span>
+                        <span class="icon-instagram ml-3"></span>
+                        <span class="icon-pinterest ml-3"></span>
+                    </div>
+
+                </div>
+                <div class=" col-md-2 col-sm-6 line mt-2">
+                    <h4 class="quick">QUICK LINKS</h4>
+                    <hr>
+                    <ul class="link pb-5">
+                        <li>About us</li>
+                        <li>Department</li>
+                        <li> Online payment</li>
+                        <li>Careers</li>
+                        <li>Department</li>
+                    </ul>
+                </div>
+                <div class=" col-md-2  col-sm-6 line mt-2">
+                    <h4 class="quick">EXPLORE</h4>
+                    <hr>
+                    <ul class="link pb-5">
+                        <li>In the community</li>
+                        <li>IU health foundation</li>
+                        <li>Family support </li>
+                        <li>Business solution</li>
+                        <li>Community clinic</li>
+                    </ul>
+                </div>
+                <div class=" col-md-2  col-sm-6 line mt-2">
+                    <h4 class="quick">RESOURCES</h4>
+                    <hr>
+                    <ul class="link pb-5">
+                        <li></a>Lights were season</a></li>
+                        <li> Their is let wherein</a></li>
+                        <li>which given over</a></li>
+                        <li>Without given She</a></li>
+                        <li>Isn two signs think</a></li>
+                    </ul>
+                </div>
+                <div class=" col-md-3  col-sm-6 line mt-2">
+                    <h4 class="quick">Newsletter</h4>
+                    <hr>
+                    <p class="email">Seed good winged wherein which night multiply midst does not fruitful</p>
+                    <div class="form-group">
+                        <form target="_blank"
+                            action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                            method="get">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '"
+                                    required="" type="email">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <span class="icon-direction"></span>
+                                    </button>
+                                </div>
+                                <div class="info"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <footer class="footer2">
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h6 class="email">Copyright designed by Lawson with 5 <span class="icon-star"></span> <span
+                                class="icon-star"></span></span> <span class="icon-star"></span> </span> <span
+                                class="icon-star"></span> </span> <span class="icon-star"></span></h6>
+                    </div>
+                    <div class="col-md-5 ">
+                        <span class="icon-twitter ml-5"></span>
+                        <span class="icon-facebook ml-5"></span>
+                        <span class="icon-instagram ml-5"></span>
+                        <span class="icon-pinterest ml-5"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+</body>
+
+</html>
