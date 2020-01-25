@@ -23,4 +23,4 @@ Note: On no circumstance should you work on the master branch and make a PR. If 
 
 ## Step 6: Create a Pull request when done
 
-If you're still having difficulties contributing, checkout this article https://github.com/freeCodeCamp/how-to-contribute-to-open-source or this youtube video https://www.youtube.com/watch?v=SWYqp7iY_Tc
+If you're still having difficulties contributing, checkout  <a href='https://github.com/freeCodeCamp/how-to-contribute-to-open-source'>this article</a> and  <a href='https://www.youtube.com/watch?v=SWYqp7iY_Tc'>this youtube video</a>
