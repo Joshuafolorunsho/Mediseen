@@ -7,7 +7,9 @@ The copied link should look at this https://github.com/{YourGitHubUrl}/Mediseen.
 
 ## Step 2: Head to your terminal / CMD
 
-Type `git clone pastetheurlyoucopied` . It should look like this  `git clone [pastetheurlyoucopied](https://github.com/{YourGitHubUrl}/Mediseen.git)`
+Type `git clone pastetheurlyoucopied` 
+  
+It should look like this  `git clone https://github.com/{YourGitHubUrl}/Mediseen.git)`
 
 ## Step 3: Open the project folder
 
