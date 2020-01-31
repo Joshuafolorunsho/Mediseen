@@ -8,7 +8,7 @@ The copied link should look at this https://github.com/{YourGitHubUrl}/Mediseen.
 ## Step 2: Head to your terminal / CMD
 
 Type `git clone pastetheurlyoucopied` 
-  
+ 
 It should look like this  `git clone https://github.com/{YourGitHubUrl}/Mediseen.git)`
 
 ## Step 3: Open the project folder
@@ -21,7 +21,7 @@ It should look like this  `git clone https://github.com/{YourGitHubUrl}/Mediseen
 
 Note: On no circumstance should you work on the master branch and make a PR. If this is done. Pull request will be close
 
-## Step 5: Contribute! Contribute!! Contribute!!
+## Step 5: Contribute! Contribute!! Contribute!!!
 
 ## Step 6: Create a Pull request when done
 
