@@ -408,8 +408,8 @@ border: 2px solid#f1eeea;
   font-size: 15px;
 }
 
-/* oiukyjthdrgesdfhgkj.l/;mluxzjJzxc */
 .servicep {
+  box-shadow: 0px 0px 50px -4px rgba(216, 212, 212, 0.5);
 -webkit-box-shadow: 0px 0px 50px -4px rgba(216, 212, 212, 0.5);
   background-color:white;
   transition: all .5s;
