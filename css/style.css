@@ -403,6 +403,8 @@ input[type='submit'] {
 	font-size: 15px;
 }
 
+/* Drug page styling starts from here */
+
 .servicep {
 	box-shadow: 0px 0px 50px -4px rgba(216, 212, 212, 0.5);
 	-webkit-box-shadow: 0px 0px 50px -4px rgba(216, 212, 212, 0.5);
@@ -435,6 +437,8 @@ input[type='submit'] {
 	text-align: center;
 	padding-top: 20px;
 }
+
+
 
 .browse-drug {
 	background-color: #242424;
