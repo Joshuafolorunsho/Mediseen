@@ -436,11 +436,66 @@ input[type='submit'] {
 	padding-top: 20px;
 }
 
+.browse-drug {
+	background-color: #242424;
+	font-weight: 600;
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.rule {
+	border: 1.4px solid #242424;
+	margin-top: -3px;
+}
+
+.custom-btn {
+	background-color: #f0f0f0;
+	color: #242424;
+	font-weight: 600;
+	margin: 4px;
+	width: 46px;
+	height: 38px;
+}
+
+.custom-btn:hover {
+	background-color: #242424;
+	color: #f0f0f0;
+}
+
+.big-btn {
+	background-color: #f0f0f0;
+	color: #242424;
+	font-weight: 600;
+	margin: 8px 4px;
+	height: 38px;
+}
+
+.big-btn:hover {
+	background-color: #242424;
+	color: #f0f0f0;
+}
+
+.browse a {
+	color: #2270ee;
+}
+.browse a:hover {
+	color: #242424;
+}
 
 @media screen and (min-width: 600px) {
-  .servicep {
-    width: 200px;
-  }
+	.servicep {
+		width: 200px;
+	}
+
+	.rule {
+		margin-top: -3px;
+	}
+
+	.custom-btn {
+		margin: 7px;
+		width: 50px;
+	}
 }
 
 @media screen and (min-width: 1400px) {
