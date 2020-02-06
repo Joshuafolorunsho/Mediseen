@@ -31,7 +31,7 @@ body {
 }
 .navbar-nav li a {
 	color: #000000 !important;
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 .icon-list22 {
 	font-size: 15px;
@@ -438,8 +438,6 @@ input[type='submit'] {
 	padding-top: 20px;
 }
 
-
-
 .browse-drug {
 	background-color: #242424;
 	font-weight: 600;
@@ -487,8 +485,8 @@ input[type='submit'] {
 	color: #242424;
 }
 
-.mt-10{
-  margin-top: 200px;
+.mt-10 {
+	margin-top: 200px;
 }
 
 @media screen and (min-width: 600px) {
