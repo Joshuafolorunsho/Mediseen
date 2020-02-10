@@ -207,7 +207,7 @@ input[type='submit'] {
 .section3 {
 	background: linear-gradient(rgba(243, 231, 231, 0.6), rgba(252, 246, 246, 0.6)),
 		url(../img/reservation_bg.png);
-	height: 103vh;
+	height: 80vh;
 	background-size: cover;
 }
 
