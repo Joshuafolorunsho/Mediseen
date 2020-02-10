@@ -205,7 +205,7 @@ input[type='submit'] {
 	color: #363636;
 }
 .section3 {
-	background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)),
+	background: linear-gradient(rgba(243, 231, 231, 0.6), rgba(252, 246, 246, 0.6)),
 		url(../img/reservation_bg.png);
 	height: 103vh;
 	background-size: cover;
@@ -318,7 +318,6 @@ input[type='submit'] {
 #exampleFormControlTextarea1 {
 	height: 256px;
 	width: 1058px;
-	border: 2px solid#f1eeea;
 }
 .form-control {
 	border: 2px solid#f1eeea;
